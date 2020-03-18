@@ -18,15 +18,15 @@ public class ActionFactory {
 			action = new LogoutAction();
 		}
 		
-		if(actionName.equalsIgnoreCase("/users/all")) {
+		if(actionName.equalsIgnoreCase("/all")) {
 			action = new UsersAllAction();
 		}
 		
-		if(actionName.equalsIgnoreCase("/users/add")) {
+		if(actionName.equalsIgnoreCase("/add")) {
 			action = new UsersAddAction();
 		}
 		
-//		if(actionName.equalsIgnoreCase("/users/login")) {
+//		if(actionName.equalsIgnoreCase("/onSystem")) {
 //			action = new LogoutAction();
 //		}
 		

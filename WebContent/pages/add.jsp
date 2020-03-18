@@ -13,7 +13,7 @@
 	
 	<c:set value="${pageContext.request.contextPath}" var="contextPath"></c:set>
 
-	<form action="${contextPath}/application/users/add" method="post">
+	<form action="${contextPath}/application/add" method="post">
 		<table>
 			<tr>
 				<td>Name:</td>
